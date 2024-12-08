@@ -12,8 +12,8 @@
     {
         public:
         Geekble_Note2Freq();    // Construct Class, Initialize function.
-        unsigned long Geekble_Note2Freq::NoteLength(float _duration);
-        void Geekble_Note2Freq::Set_BPM_QuarterNote(uint16_t _BPM);
+        unsigned long NoteLength(float _duration);
+        void Set_BPM_QuarterNote(uint16_t _BPM);
         private:
         ;
     };
