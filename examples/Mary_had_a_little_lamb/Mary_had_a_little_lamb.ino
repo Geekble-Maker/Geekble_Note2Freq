@@ -2,10 +2,10 @@
 
 Geekble_Note2Freq Sing;
 
-#define tonePin 7
+#define tonePin 13
 void setup() 
 {
-  pinMode(7, OUTPUT);
+  pinMode(tonePin, OUTPUT);
   Sing.Set_BPM_QuarterNote(120);
 }
 
